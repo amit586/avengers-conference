@@ -12,7 +12,7 @@ let randomName =
 	avengersNames[Math.floor(Math.random() * avengersNames.length)];
 
 	var myHeaders = new Headers();
-	myHeaders.append("Authorization", "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290dXNlciIsImF1dGgiOiJST0xFX01PREVSQVRPUixST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU5NzYwMTc5OX0.DG0MaH07kzSzM9Hilzu99zXxXaR4AhOfCl339BExQ0w9A-NOlpcTZjgHW_fBjvw_MDnOJO88DIfnXWhZ2_jYuw");
+	myHeaders.append("Authorization", "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290dXNlciIsImF1dGgiOiJST0xFX1VTRVIsUk9MRV9BRE1JTixST0xFX01PREVSQVRPUiIsImV4cCI6MTU5Nzc0ODA1NX0.rZOt0NHj2wBE1HPPMu3VlR1bqr69GRGnkHjUt2fE4cor3l6LL4GsU2qItqEOuH8H7NlcuMvuwWUp4UOcKU4FcA");
 	
 	var requestOptions = {
 	  method: 'GET',
